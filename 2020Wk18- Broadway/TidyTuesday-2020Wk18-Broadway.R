@@ -181,4 +181,4 @@ p2<-cumgross %>%
 pall<-p1/p2+
   plot_layout(heights=c(3, 1))
 
-ggsave("Broadway.png", pall, width=9, height=10, dpi=300)
+ggsave("./2020Wk18- Broadway/Broadway.png", pall, width=9, height=10, dpi=300)
